@@ -1,5 +1,5 @@
 <h1 align="center">
-  API i18n Boilerplate
+  API i18n Boilerplate <img alt="Help-wanted" src="https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat">
 </h1>
 Simple boilerplate to bootstrap am i18n / l10n Rails API
 
@@ -30,4 +30,6 @@ You can also use it with the TypeScript i18n React boilerplate [here](https://gi
 It will run on localhost:3000
 
 ## 🚀 To do
--   Add tests
+- Would need help to write tests and have a high coverage
+- Add Rubocop check
+- Add CI with tests and Rubocop check

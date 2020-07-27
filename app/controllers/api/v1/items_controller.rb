@@ -10,7 +10,6 @@ class Api::V1::ItemsController < ApplicationController
   end
 
   def create
-    puts params
     @item = Item.new
 
     if params['name']
