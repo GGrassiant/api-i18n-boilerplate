@@ -33,5 +33,4 @@ It will run on localhost:3000
 
 ## 🚀 To do
 - Would need help to write tests and have a high coverage
-- Add Rubocop check
-- Add CI with tests and Rubocop check
+- Add Rubocop to CI
