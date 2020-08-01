@@ -1,5 +1,5 @@
 <h1 align="center">
-  API i18n Boilerplate <img alt="Help-wanted" src="https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat">
+  API i18n Boilerplate <img alt="Build passing" src="https://img.shields.io/github/workflow/status/ggrassiant/api-boilerplate/API%20i18n%20Boilerplate%20CI"> <img alt="Help-wanted" src="https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat">
 </h1>
 Simple boilerplate to bootstrap am i18n / l10n Rails API
 
