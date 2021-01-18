@@ -47,4 +47,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'dotenv-rails', groups: %i[development test]
 
 # Globalize
-gem 'globalize', '~> 5.3.0'
+gem 'globalize', '~> 6.0.0'
