@@ -1,7 +1,7 @@
 <h1 align="center">
-  API i18n Boilerplate <img alt="Build passing" src="https://img.shields.io/github/workflow/status/ggrassiant/api-i18n-boilerplate/API%20i18n%20Boilerplate%20CI"> <img alt="Help-wanted" src="https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat">
+  API i18n Boilerplate
 </h1>
-Simple boilerplate to bootstrap am i18n / l10n Rails API
+Simple boilerplate to bootstrap an i18n / l10n Rails API
 
 ## 🚀 Tech Stack
 
@@ -27,10 +27,6 @@ Simple boilerplate to bootstrap am i18n / l10n Rails API
 
 1.  `rails server`
 
-You can also use it with the TypeScript i18n React boilerplate [here](https://github.com/GGrassiant/ts-react-i18n-boilerplate)
+It expects client's calls from localhost:3001
 
 It will run on localhost:3000
-
-## 🚀 To do
-- Would need help to write tests and have a high coverage
-- Add Rubocop to CI
