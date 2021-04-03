@@ -30,7 +30,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   #Rspec
   gem 'rails-controller-testing'
-  gem 'rspec-rails', '~> 4.0.2'
+  gem 'rspec-rails', '~> 5.0.1'
 end
 
 group :development do
