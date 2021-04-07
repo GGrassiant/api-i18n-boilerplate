@@ -1,4 +1,5 @@
 env:
+  CLIENT_HOST: 'https://ts-react-boilerplate.herokuapp.com'
   POSTGRES_PASSWORD: postgres
   POSTGRES_USER: postgres
   POSTGRES_HOST: localhost
@@ -8,9 +9,9 @@ name: API i18n Boilerplate CI
 
 on:
   push:
-    branches: main
+    branches: [ main ]
   pull_request:
-    branches: main
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,7 +28,6 @@ jobs:
           --health-interval 10s
           --health-timeout 5s
           --health-retries 5
-
     steps:
       - uses: actions/checkout@v2
 
@@ -43,7 +43,7 @@ jobs:
           bundle install --jobs 4 --retry 3
 
       - name: Setup the postgres database
-        run: bundle exec rake db:create db:schema:load
+        run: bundle exec rake db:setup
 
       - name: Run RSpec tests
         run: bundle exec rspec
