@@ -1,5 +1,4 @@
 env:
-  CLIENT_HOST: 'https://ts-react-boilerplate.herokuapp.com'
   POSTGRES_PASSWORD: postgres
   POSTGRES_USER: postgres
   POSTGRES_HOST: localhost
@@ -43,7 +42,7 @@ jobs:
           bundle install --jobs 4 --retry 3
 
       - name: Setup the postgres database
-        run: bundle exec rake db:setup
+        run: bundle exec rake db:drop db:create db:schema:load
 
       - name: Run RSpec tests
         run: bundle exec rspec
